@@ -1,11 +1,20 @@
 import Contador from './Contador'
+import GreetClass from './GreetClass'
+import GreetFunction from './GreetFunction'
 
 const InstagramApp = () => {
     return(
-        <div>
+        <>
             <h1>Componente InstagramApp</h1>
             <Contador />
-        </div>
+            <hr />
+            {/* Forma 1 */}
+            {/* <GreetClass /> */}
+            {/* Forma 2 */}
+            {/* <Greet></Greet> */}
+
+            <GreetFunction />
+        </>
     )
 }
 
