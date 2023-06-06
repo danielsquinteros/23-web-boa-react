@@ -6,8 +6,7 @@ const GreetFunction = () => {
     // segundo valor: la función que cambia la variable que almacena el estado = información que almacena el compenente
     // useState: lo que va dentro de useState es el valor inicial de la variable que almacena el estado del componente
     const [loading, setLoading] = useState(false)
-    const [name, setName] = useState('Daniel')
-
+    
     // primera parámetro que recibe useEffect es el código quue se ejectura o se activara dependiendo si se monta etcccc
     // segundo parámetro es un arreglo que en funcín de lo que tenga va a activar una del ciclo de vida
     //componenteDidMount = []

@@ -1,6 +1,7 @@
 import Contador from './Contador'
 import GreetClass from './GreetClass'
 import GreetFunction from './GreetFunction'
+import Nombre from './Nombre'
 
 const InstagramApp = () => {
     return(
@@ -14,6 +15,7 @@ const InstagramApp = () => {
             {/* <Greet></Greet> */}
 
             <GreetFunction />
+            <Nombre></Nombre>
         </>
     )
 }
