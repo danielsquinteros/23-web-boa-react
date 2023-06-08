@@ -13,3 +13,7 @@
   /* div {
     background-color: aqua;
   } */
+
+  .button {
+    cursor: pointer;
+  }
